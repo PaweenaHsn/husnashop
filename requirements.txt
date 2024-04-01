@@ -10,6 +10,8 @@ idna==3.6
 mysqlclient==2.2.4
 packaging==24.0
 pillow==10.2.0
+psycopg2==2.9.9
+python-environ==0.4.54
 requests==2.31.0
 sqlparse==0.4.4
 stripe==8.8.0
