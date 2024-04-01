@@ -95,14 +95,19 @@ if not DEBUG:
 else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'storedb',
-            'USER' : 'root',
-            'PASSWORD' : 'Husna26531',
-            'HOST' : 'localhost',
-            'PORT' : ''
-        }
-    }
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': 'db.sqlite3',
+        }}
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.mysql',
+    #         'NAME': 'storedb',
+    #         'USER' : 'root',
+    #         'PASSWORD' : 'Husna26531',
+    #         'HOST' : 'localhost',
+    #         'PORT' : ''
+    #     }
+    # }
 
 # postgres://db_2204_user:vNiNovmg7JeYiNx7RSDitpvazfIINeS6@dpg-co33eqol5elc73d6s9m0-a/db_2204
 
