@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'djangoworkshop.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+# https://docs.djangoproject.com/en/5.0/ref/settings/#databasepos
 if not DEBUG:
     DATABASES = {
-        'default':dj_database_url.parse(os.environ.get('postgres://db_2204_user:vNiNovmg7JeYiNx7RSDitpvazfIINeS6@dpg-co33eqol5elc73d6s9m0-a/db_2204'))
+        'default':dj_database_url.parse(os.environ.get('postgres://db_2204_user:vNiNovmg7JeYiNx7RSDitpvazfIINeS6@dpg-co33eqol5elc73d6s9m0-a.singapore-postgres.render.com/db_2204'))
     }
 else:
     DATABASES = {
